@@ -10,9 +10,6 @@
         "moduleResolution": "node"
     },
     "exclude": [
-        "node_modules",
-        "typings/main.d.ts",
-        "typings/main",
-        "m1/e2e"
+        "e2e"
     ]
 }

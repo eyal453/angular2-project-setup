@@ -12,16 +12,16 @@ import {
 } from 'angular2/testing';
 import {Component, Injectable, provide} from "angular2/core";
 
-import {SomeService} from '../some-service'
+import {WijmoService} from '../wijmo-service'
 
 export function main() {
-    var svc: SomeService;
+    var svc: WijmoService;
 
     beforeEachProviders(() => [
-        SomeService
+        WijmoService
     ]);
 
-    beforeEach(inject([SomeService], (_svc) => {
+    beforeEach(inject([WijmoService], (_svc) => {
         svc = _svc;
     }));
 
