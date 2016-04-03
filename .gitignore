@@ -1,0 +1,7 @@
+node_modules
+typings
+.vscode
+.vs
+.npmrc
+app/**/*.js*
+e2e/**/*.js*
